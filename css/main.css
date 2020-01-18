@@ -1,0 +1,74 @@
+*{
+    font-family: roboto;
+}
+
+.one{
+    height: 350px;
+    background-color: whitesmoke;
+}
+
+.one h1{
+    color: teal;
+    font-size: 30px;
+}
+
+.one h3{
+    color: rgb(169, 219, 32);;
+}
+
+.one div{
+    margin: 4em 5.5em;
+}
+
+.two{
+    height: 350px;
+    background-color: teal;
+}
+
+.two div{
+    margin: 10% 15%;
+    color:  whitesmoke;
+}
+
+div .club{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.two div p span{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.three{
+    height: 350px;
+    background-color: rgb(30, 161, 161);
+}
+
+
+.three div{
+    margin: 10% 15%;
+    color:  whitesmoke;
+}
+
+.three ul{
+    display: inline;
+    list-style: none;
+    line-height: 25px;
+}
+
+button{
+    background-color: rgb(169, 219, 32);
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 5px 50px;  
+    border: none;
+    border-radius: 5px;
+    outline: none; 
+}
+
+button:hover{
+    background-color: rgb(127, 165, 24);
+}
